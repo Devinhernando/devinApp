@@ -17,8 +17,11 @@
             android:exported="false" />
         <activity
             android:name=".devinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kalkulator_Devin"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="devinapp"
             android:theme="@style/Theme.DevinApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".kalkulator_Devin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Kalkulator Sederhana : Devin"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Nilai Pertama (A)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nilai kedua (B)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tambah"
+        android:textSize="16sp"
+        android:backgroundTint="#6A4DBA"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kali"
+        android:textSize="16sp"
+        android:backgroundTint="#6A4DBA"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bagi"
+        android:textSize="16sp"
+        android:backgroundTint="#6A4DBA"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/hasilText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/hasilAngka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="#333333"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
